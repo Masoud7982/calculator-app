@@ -7,6 +7,7 @@ source.include_exts = py,png,jpg,kv,atlas
 source.exclude_patterns = gen_assets.py,test_calculator.py,README.md,build_apk_colab.ipynb,calculator.zip
 version = 1.0.0
 requirements = python3,kivy
+android.accept_sdk_license = True
 orientation = portrait
 fullscreen = 0
 android.archs = arm64-v8a, armeabi-v7a
