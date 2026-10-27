@@ -6,7 +6,7 @@ source.dir = .
 source.include_exts = py,png,jpg,kv,atlas
 source.exclude_patterns = gen_assets.py,test_calculator.py,README.md,build_apk_colab.ipynb,calculator.zip
 version = 1.0.0
-requirements = python3,kivy==2.3.0,cython==0.29.33
+requirements = python3,kivy
 android.accept_sdk_license = True
 orientation = portrait
 fullscreen = 0
