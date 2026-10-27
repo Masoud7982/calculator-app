@@ -46,7 +46,8 @@ jobs:
   run: |
     yes | buildozer android debug
   
-      - name: Upload APK
+  - name: Build APK
+  run: buildozer android debug
         uses: actions/upload-artifact@v4
         with:
           name: calculator-apk
